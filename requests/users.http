@@ -1,0 +1,24 @@
+###
+GET http://localhost:3000/users?page=5&limit=10
+
+### CREATE USER
+POST http://{{BASE_URL}}/users
+content-type: application/json
+
+{
+  "name": "Patrick",
+  "email": "patrick@email.com",
+  "password": "123"
+}
+
+### UPDATE USER
+
+PUT http://{{BASE_URL}}/users/1
+content-type: application/json
+
+{
+  "name": "Patrick Franco",
+  "email": "patrick@email.com",
+  "password": "123",
+  "old_password": "123456"
+}

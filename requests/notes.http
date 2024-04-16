@@ -1,0 +1,19 @@
+### CREATE
+POST http://{{BASE_URL}}/notes/1
+content-type: application/json
+
+{
+  "title": "Criptografia de dados",
+  "description": "Essa é uma nota de exemplo",
+  "tags": ["node", "bcryptjs"],
+  "links": ["link1", "link2"]
+}
+
+### SHOW
+GET http://{{BASE_URL}}/notes/1
+
+### DELETE
+DELETE http://{{BASE_URL}}/notes/1
+
+### INDEX
+GET http://{{BASE_URL}}/notes?user_id=1&title=&tags=
