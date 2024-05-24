@@ -1,0 +1,7 @@
+{
+  "rest-client.environmentVariables": {
+    "$shared": {
+      "USER_TOKEN": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE3MTYzMTE4NzgsImV4cCI6MTcxNjM5ODI3OCwic3ViIjoiMSJ9.shX3ugf9X6stnSg_zkqMarZspm5neKJ5H-VAInn_xGA"
+    }
+  }
+}

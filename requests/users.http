@@ -1,3 +1,5 @@
+@BASE_URL = localhost:3000
+
 ###
 GET http://localhost:3000/users?page=5&limit=10
 
@@ -13,7 +15,7 @@ content-type: application/json
 
 ### UPDATE USER
 
-PUT http://{{BASE_URL}}/users/1
+PUT http://{{BASE_URL}}/users
 content-type: application/json
 
 {
