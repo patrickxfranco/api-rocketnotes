@@ -3,7 +3,7 @@
 	"version": "1.0.0",
 	"main": "index.js",
 	"scripts": {
-		"start": "node ./source/server.js",
+		"start": "pm2-runtime start ecosystem.config.js --env production",
 		"dev": "nodemon ./source/server.js",
 		"migrate": "knex migrate:latest"
 	},
@@ -13,6 +13,7 @@
 	"dependencies": {
 		"bcryptjs": "^2.4.3",
 		"cors": "^2.8.5",
+		"dotenv": "^16.4.5",
 		"express": "^4.21.0",
 		"express-async-errors": "^3.1.1",
 		"jsonwebtoken": "^9.0.2",
